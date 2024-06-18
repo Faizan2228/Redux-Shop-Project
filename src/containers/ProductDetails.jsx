@@ -28,7 +28,7 @@ export const ProductDetails = () => {
     <div className='ui grid container'>
       {
         Object.keys(product).length === 0 ? (
-          <div>Loading...</div>
+          <div style={{display:'flex', flexDirection:"column", justifyContent:'center', alignItems:"center", marginLeft:'auto', marginRight:"auto", height:'100vh'}}><h1 style={{fontSize:70}} >Loading...</h1></div>
         ):(
               
                 <div className='ui placeholder segment'>
